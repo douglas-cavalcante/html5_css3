@@ -246,7 +246,7 @@
 }
 
 .main_course_content {
-    width: 1300px;
+    max-width: 1300px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -333,4 +333,120 @@
     width: 15px;
     margin-top: 5px;
     margin-bottom: 2px;
+}
+
+/* main school */
+
+.main_school {
+    width: 100%;
+}
+
+.main_school_content {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main_school_header {
+    flex-basis: 100%;
+    padding: 40px 0;
+    color: #333;
+}
+
+.main_school_header h1 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+}
+
+/* left */
+
+.main_school_content_left {
+    flex-basis: calc(70% - 20px);
+}
+
+.social_network {
+    padding: 10px 10px;
+    background-color: #2d3142;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.social_network_title {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.social_network span {
+    color: #fff;
+    margin-left: 20px;
+}
+
+.social_network a {
+    color: #fff;
+    font-size: 0.9em;
+}
+
+.social_network a:hover {
+    text-decoration: underline;
+}
+
+/* right */
+
+.main_school_content_right {
+    flex-basis: 30%;
+}
+
+.main_school_content_right img {
+    width: 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+}
+
+.main_school_content_left .text-description {
+    margin-bottom: 20px;
+}
+
+.main_school_content_left .main_school_list {
+    width: 100%;
+    background-color: #ebebeb;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main_school_list>header {
+    flex-basis: 100%;
+    color: #d36833;
+    margin-bottom: 20px;
+}
+
+.main_school_list>article {
+    flex-basis: calc(50% - 10px);
+    margin: 4px 0;
+}
+
+.main_school_list>article h3 {
+    font-weight: 300;
+}
+
+/* footer - school */
+
+.address {
+    flex-basis: 100%;
+    text-align: center;
+    padding: 45px 0;
+}
+
+.address h2 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
 }
