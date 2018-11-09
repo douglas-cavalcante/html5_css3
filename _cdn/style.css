@@ -658,7 +658,7 @@
     -webkit-border-radius: 4px 4px 0 0;
 }
 
-.menu_mobile_obj:hover {
+.menu_mobile_obj:hover, .menu_mobile_obj_active {
     background-color: #fff;
 }
 
