@@ -163,7 +163,7 @@
     color: #2d3142;
 }
 
-/* option */
+/* optio*/
 
 .main_optin {
     width: 100%;
@@ -701,6 +701,23 @@
     .main_cta_content .spacer {
         padding: 100px 30px;
     }
+    /* optin */
+    .main_optin_content {
+        flex-wrap: wrap;
+    }
+    .main_optin_content header, .main_optin_content form {
+        flex-basis: 100%;
+        margin: 0 auto
+    }
+    .main_optin_content header {
+        margin-bottom: 20px;
+    }
+    .main_optin_content header h1, .main_optin_content header p {
+        text-align: center;
+    }
+    .main_optin_content form input[type=text], .main_optin_content form input[type=email] {
+        padding: 6px 12px;
+    }
 }
 
 /* 768 px */
@@ -721,6 +738,30 @@
     .main_cta_content p .btn {
         font-size: 0.5em;
     }
+    /* blog section */
+    .main_blog article {
+        flex-basis: calc(33% - 10px);
+    }
+}
+
+/* 640 px */
+
+@media(max-width:40em) {
+    .main_blog article {
+        flex-basis: calc(50% - 10px);
+    }
+    /* optin */
+    .main_optin_content form {
+        flex-wrap: wrap;
+    }
+    .main_optin_content form input[type=text], .main_optin_content form input[type=email] {
+        flex-basis: 100%;
+        margin-bottom: 10px;
+    }
+    .main_optin_content form button {
+        margin: 0 auto;
+        padding: 6px 12px;
+    }
 }
 
 /* 480 */
@@ -732,9 +773,10 @@
     .main_header_content .logo img {
         width: 100%;
     }
-
     .main_header_content_menu_mobile {
         flex-basis: calc(1300px - 220px) !important;
     }
-  
+    .main_blog article {
+        flex-basis: 100%;
+    }
 }
